@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_shop_cpt21/screens/cart_screen.dart';
+import 'package:flutter_shop_cpt21/screens/feeds_screen.dart';
+import 'package:flutter_shop_cpt21/screens/home_screen.dart';
+import 'package:flutter_shop_cpt21/screens/search_screen.dart';
+import 'package:flutter_shop_cpt21/screens/user_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,8 +14,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
+      routes: {
+        HomeScreen.routeName: (ctx) => const HomeScreen(),
+        FeedsScreen.routeName: (ctx) => const FeedsScreen(),
+        SearchScreen.routeName: (ctx) => const SearchScreen(),
+        CartScreen.routeName: (ctx) => const CartScreen(),
+        UserScreen.routeName: (ctx) => const UserScreen(),
+      },
     );
   }
 }
