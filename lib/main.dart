@@ -5,6 +5,11 @@ import 'package:flutter_shop_cpt21/screens/feeds_screen.dart';
 import 'package:flutter_shop_cpt21/screens/home_screen.dart';
 import 'package:flutter_shop_cpt21/screens/search_screen.dart';
 import 'package:flutter_shop_cpt21/screens/user_screen.dart';
+import 'package:flutter_shop_cpt21/screens/bottom_nav_screen.dart';
+import 'package:flutter_shop_cpt21/screens/cart_screen.dart';
+import 'package:flutter_shop_cpt21/screens/feeds_screen.dart';
+import 'package:flutter_shop_cpt21/screens/home_screen.dart';
+import 'package:flutter_shop_cpt21/screens/search_screen.dart';
 
 void main() {
   runApp(const MyApp());
